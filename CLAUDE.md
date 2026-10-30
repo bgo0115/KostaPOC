@@ -20,6 +20,7 @@ KOSTA 「Claude Code로 POC 프로젝트 만들기」 실습용 저장소다. �
 - 목적: Claude Code 와 git worktree 로 백엔드 · 프론트엔드를 나눠 만들어, 하루 안에 「목록 → 대여 → 이미 빌린 책 거부 → 반납」 흐름이 동작하는지 확인한다.
 - 스택: Node.js 24 · Express 5 · better-sqlite3 · React + Vite
 - 폴더: `server/` 는 API, `client/` 는 화면, `docs/` 는 문서
+- 설계 문서: `docs/SPEC.md` · `docs/design.md` · `docs/tasks.md`
 - 만들지 않는 것: 로그인 · 회원 · 배포, 그리고 `docs/idea.md` 에서 핵심이 아닌 기능
 - 보고: 작업이 끝나면 바꾼 파일과 내용을 3줄로 알려 준다
 - 언어: 답과 문서는 한국어로 쓴다
