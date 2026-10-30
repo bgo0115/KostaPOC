@@ -9,7 +9,7 @@ const server = app.listen(PORT, () => {
 server.on('error', (err) => {
   if (err.code === 'EADDRINUSE') {
     console.log(`포트 ${PORT} 이(가) 이미 사용 중입니다.`);
-    process.exit(0);
+    process.exit(1);
   }
   throw err;
 });
