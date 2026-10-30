@@ -1,0 +1,8 @@
+{
+  "name": "poc",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "test": "npm test -w server"
+  }
+}
